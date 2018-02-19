@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Block Reddit Login",
+  "version": "0.0.1",
+  "author": "Jordan Violet",
+  "description": "This simple Chrome plugin blocks the annoying reddit login prompt.",
+  "content_scripts": [{
+    "js": ["modal_fixer.js"],
+    "matches": ["https://www.reddit.com/"]
+  }]
+}
