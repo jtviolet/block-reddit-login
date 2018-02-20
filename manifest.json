@@ -6,7 +6,7 @@
   "author": "Jordan Violet",
   "description": "This simple Chrome plugin blocks the annoying reddit login prompt.",
   "content_scripts": [{
-    "js": ["modal_fixer.js"],
+    "js": ["fixer.js"],
     "matches": ["https://www.reddit.com/"]
   }]
 }
