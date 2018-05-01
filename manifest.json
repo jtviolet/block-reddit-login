@@ -7,6 +7,6 @@
   "description": "This simple Chrome plugin blocks the annoying reddit login prompt.",
   "content_scripts": [{
     "js": ["fixer.js"],
-    "matches": ["https://www.reddit.com/"]
+    "matches": ["https://www.reddit.com/*"]
   }]
 }
